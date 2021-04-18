@@ -1,7 +1,9 @@
-
+/*Global*/
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+/*Navigation*/
 
 h1 {
     font-size: 60px;  
@@ -50,13 +52,8 @@ nav > a {
     transform: translate(-50%, -50%);   
 }
 
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-positive: 1;
-    flex-grow: 0; 
-    -ms-flex-align: center;
-    align-items: center;
+.navbar-collapse {    
+    flex-grow: 0;
 }
 
 .btn-group-vertical > .btn, .btn-group > .btn {
