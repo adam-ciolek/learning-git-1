@@ -6,11 +6,12 @@
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.7;
     font-family: 'Raleway', sans-serif;
     color: #3d3d3d;
     background-color: #f3f2f2;
+    text-align: center;
 }
     
 .container {
@@ -25,8 +26,79 @@ section {
  
 /*Navigation*/
 
+nav {
+    background: url(https://i.postimg.cc/SxL7zmQG/pexels-godisable-jacob-952214.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh; 
+    position: relative;
+}
+
+.nav-title {
+    color: #fff;
+}
+
 .navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-top: 40px;
+    align-items: baseline;
 }
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    margin: 0 20px 0 0;
+    position: relative;
+    display: inline-block;
+}
+    
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}  
+
+.navigation ul ul li {
+    display: block;
+    margin: 0 0 12px 0;
+    position: relative;
+}
+    
+.navigation ul li ul  {
+    display: none;
+}
+    
+.navigation li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+    
+.navigation li:hover ul li {
+    display: block;
+    text-align: center;
+}
+    
+.navigation li ul li a {
+    color: #CAD3C8;
+}   
+
+.navigation li ul li  {
+    display: block;
+    padding: 5px 24px;
+}
+
+.navigation li ul {
+    left: 50%;
+    transform: translateX(-50%);
+}  
