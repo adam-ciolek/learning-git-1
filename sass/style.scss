@@ -141,7 +141,7 @@ a:hover {
 
  /*Main*/
 
- .row {
+ .row-margin {
      margin: 100px 0;
  }
 
@@ -185,4 +185,24 @@ a:hover {
 
  .btn:hover {
      background-color: #55efc4;
+ }
+
+ /*Footer*/
+
+ footer {
+    padding: 40px;
+ }
+
+ .footer-text {
+    text-align: left;
+ }
+
+ .footer-text span {
+     margin-right: 5px;
+ }
+
+ .footer-text i {
+     margin-left: 10px;
+     font-size: 35px;
+     cursor: pointer;
  }
