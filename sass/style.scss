@@ -27,7 +27,7 @@ section {
 /*Navigation*/
 
 nav {
-    background: url(https://i.postimg.cc/SxL7zmQG/pexels-godisable-jacob-952214.jpg);
+    background: url(https://i.postimg.cc/JhJSYKwq/pexels-spencer-selover-428338.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@ nav {
 }
 
 .nav-title {
-    color: #fff;
+    color: #2d3436;
 }
 
 .navigation {
@@ -61,11 +61,11 @@ nav {
     
 .navigation a {
     text-decoration: none;
-    color: #fff;
+    color: #2d3436;
 }
 
 a:hover {
-    color: #fff;
+    color: #2d3436;
 }  
 
 .navigation ul ul li {
@@ -105,7 +105,7 @@ a:hover {
 
 .nav-main {
     position: absolute;
-    color: #fff;
+    color: #2d3436;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -118,14 +118,14 @@ a:hover {
 
 .nav-text {
     font-size: 48px;
-    color: #fff;
+    color: #55efc4;
 }
 
 .nav-btn {
     outline: none;
-    background: rgb(29, 209, 104);
-    color: #fff;
+    background: transparent;
+    color: #55efc4;
     padding: 15px 36px;
     border-radius: 6px;
-    border: none;
+    border: 3px solid #55efc4;
  }
