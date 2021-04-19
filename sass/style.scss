@@ -45,6 +45,9 @@ nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
 }
 
 .navigation li {
@@ -106,7 +109,7 @@ a:hover {
 }
 
 .nav-main h2 {
-    color: #fff;
+    color: #55efc4;
     font-size: 38px;
 }
 
