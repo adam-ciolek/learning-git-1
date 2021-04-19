@@ -141,11 +141,6 @@ a:hover {
 
  /*Main*/
 
-.main-background {
-    background: #f3f2f2;
-    height: 80vh;
-}
-
  .row {
      margin: 100px 0;
  }
@@ -170,4 +165,24 @@ a:hover {
      text-align: justify;
      font-size: 15px;
      padding: 10px;
+ }
+
+ /*Category*/
+
+.section-background {
+    background-color: #f1f2f6;
+}
+
+.card {
+    border: none;
+} 
+
+ .btn {
+     background-color: #55efc4;
+     padding: 10px 30px;
+     border: none;
+ }
+
+ .btn:hover {
+     background-color: #55efc4;
  }
