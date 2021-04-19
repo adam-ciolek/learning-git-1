@@ -129,3 +129,18 @@ a:hover {
     border-radius: 6px;
     border: 3px solid #55efc4;
  }
+
+ .nav-btn:hover {
+     color: #fff;
+     border: 3px solid #fff;
+ }
+
+ .nav-btn:focus {
+    outline: none;
+ }
+
+ /*Main*/
+
+ .row {
+     margin: 100px 0;
+ }
