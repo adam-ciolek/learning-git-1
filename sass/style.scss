@@ -20,13 +20,12 @@ section {
  
 /*Navigation*/
 
-nav {
+header {
     background: url(https://i.postimg.cc/JhJSYKwq/pexels-spencer-selover-428338.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh; 
-    position: relative;
+    height: 80vh;  
 }
 
 .nav-title {
@@ -101,11 +100,7 @@ a:hover {
 }  
 
 .nav-main {
-    position: absolute;
-    color: #2d3436;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 150px;
 }
 
 .nav-main h2 {
